@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.page {
+    width: 750px;
+
+    margin: 0 auto;
+
+}
+
+header {
+    width: 417px;
+    height: 46px;
+    margin-top: 140px;
+}
+
+header h1 {
+    color: #FFF;
+
+    font-size: 48px;
+    line-height: normal;    
+}
+
+header p {
+    color: #FFF;
+
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: normal;
+}
+
+body {
+    background: #c3c0c0; 
+
+    font-family: 'Staatliches', sans-serif;
+}
+
+body::before {
+    content: '';
+    width: 100%;
+    height: 436px;
+    background: #535971;
+    
+    position: absolute; /*necessário para que o conteúdo que estava em baixo fique por cima da coloração*/
+    display: block; /*Necessário para que a pseudo-class funcione, empurra todos os elementos para baixo e ocupa toda a linha*/
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    
+}
+
+
+form
+{
+    background: #FFF;
+    margin-top: 122px;
+    padding: 64px;
+    min-height: 300px;
+    border-radius: 20px 20px 0px 0px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+fieldset {
+    border: none;
+    
+}
+
+.fieldset-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+span {
+    color: #b0abb8;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+legend {
+    color: #535971;
+    font-family: Staatliches;
+    font-size: 24px;
+    border-bottom: 1px solid #d3d3dc;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    
+    
+}
+
+label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+input {
+    border: 1px solid #c4c4cd;
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+}
+
+#mentors-name {
+    margin-bottom: 20px;
+}
+
+.aolado {
+    display: flex;
+    gap: 22px;
+    width: 100%;
+    
+}
+
+.aolado > * {
+    flex: 1;
+    flex-basis: 0;
+}
+
+h2 {
+    color: #535971;
+    font-size: 20px;
+    margin-bottom: 11px;
+}
+
+
+.primeira-m {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+
+.primeira-m > * {
+    flex: 1;
+    flex-basis: 0;
+}
+
+
+.primeira-m-hora {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.primeira-m-hora > * {
+    flex: 1;
+    flex-basis: 0;
+}
+
+
+.segunda-m {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+
+
+.segunda-m > * {
+    flex: 1;
+    flex-basis: 0;
+}
+
+
+.segunda-m-hora {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.segunda-m-hora > * {
+    flex: 1;
+    flex-basis: 0;
+}
+
+footer {
+    border-radius: 0px 0px 20px 20px;
+    background: #535971;
+    width: 750px;
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 608px;
+    height: 55.652px;
+    padding: 15px 40px;
+   
+    border-radius: 20px;
+    background: #FF5374;
+    padding: 15px 40px;
+    border: none;
+    color: #FFF;
+
+    font-family: 'Staatliches', sans-serif;
+    font-size: 20px;
+    
+    line-height: 26px; 
+}
